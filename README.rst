@@ -2,7 +2,10 @@
 LAT adversarial_robustness
 =======
 
-A fine tuning technique over the adversarially trained models to increase further robustness
+A fine tuning technique over the adversarially trained models to increase further robustness.
+
+Code for the paper Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models
+: `https://arxiv.org/abs/1905.05186` 
 
 
 
@@ -47,6 +50,17 @@ Example original and adversarial images computed via Latent Attack on CIFAR10
 
 
 Example original and adversarial images computed via Latent Attack on Restricted Imagenet(`https://arxiv.org/pdf/1805.12152.pdf 
-<https://arxiv.org/pdf/1805.12152.pdf>`_.
+<https://arxiv.org/pdf/1805.12152.pdf>`).
 
 .. figure:: imagenet_adv_LA.png
+
+Citing this work
+------------
+.. code-block:: bash
+
+	@article{nupur2019lat,
+	  title={Harnessing the Vulnerability of Latent Layers in Adversarially Trained Models},
+	  author={Kumari, Nupur and Singh, Mayank and Sinha, Abhishek and  Krishnamurthy, Balaji and  Machiraju,Harshitha and 	Balasubramanian, Vineeth N},
+	  journal={IJCAI},
+	  year={2019}
+	}
